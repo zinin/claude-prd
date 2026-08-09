@@ -6,8 +6,9 @@ description: >
   genuine decision forks where context doesn't clearly favor one answer. Designed for iterative use:
   invoke repeatedly across sessions until the PRD is implementation-ready with zero open questions.
   Use this skill after claude-prd:idea-to-prd (or any other PRD generator) has produced a PRD and
-  you want to harden it before implementation. Also use when the user says "review PRD", "improve PRD", "validate PRD",
-  "refine PRD", "PRD quality", "PRD ready?", or anything about making an existing PRD better.
+  you want to harden it before implementation. Also use when the user says "review PRD",
+  "improve PRD", "validate PRD", "refine PRD", "PRD quality", "PRD ready?", or anything about
+  making an existing PRD better.
 user_invocable: true
 ---
 
