@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to claude-prd will be documented here.
+All notable changes to prd-flow will be documented here.
 
 ## [Unreleased]
 
