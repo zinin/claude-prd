@@ -228,7 +228,7 @@ Present a concise summary:
 - **Readiness:** Ready for execution / Almost ready / Needs more work
 
 If tasks are ready: say so clearly. Don't invent work.
-If they need more work: explain what's still missing and suggest running `/claude-prd:refine-tasks` again.
+If they need more work: explain what's still missing and suggest running `/prd-flow:refine-tasks` again.
 
 ## Analysis checklist
 

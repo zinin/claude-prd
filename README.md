@@ -1,4 +1,4 @@
-# claude-prd
+# prd-flow
 
 Claude Code plugin: the path from a raw idea to an execution-ready task list —
 one skill that authors a PRD through dialogue, and two that harden the PRD and
@@ -6,20 +6,20 @@ the generated tasks autonomously, asking you at most three questions per run.
 
 ## Features
 
-(Skills are namespaced under `claude-prd:` — that is how Claude Code surfaces plugin skills.)
+(Skills are namespaced under `prd-flow:` — that is how Claude Code surfaces plugin skills.)
 
-- **`claude-prd:idea-to-prd`** — turns an idea into a PRD through collaborative
+- **`prd-flow:idea-to-prd`** — turns an idea into a PRD through collaborative
   discovery: explores the project, asks questions one at a time, proposes 2-3
   approaches with trade-offs, validates the design section by section, then writes
   `.taskmaster/docs/prd.md` and commits it. Hard-gated: it writes a PRD and nothing
   else — no code, no scaffolding, no implementation plan.
-- **`/claude-prd:refine-prd`** — validates an existing PRD and fixes what it finds:
+- **`/prd-flow:refine-prd`** — validates an existing PRD and fixes what it finds:
   contradictions between sections, vague language ("fast", "scalable") replaced with
   measurable targets, missing acceptance criteria, priorities, dependency chains,
   broken cross-references. Answers open questions from the codebase where it can, and
   asks you only at genuine decision forks (max 3 per run). Appends a changelog to the
   PRD so every change is reviewable, and reports whether the PRD is implementation-ready.
-- **`/claude-prd:refine-tasks`** — validates `.taskmaster/tasks/tasks.json` against the
+- **`/prd-flow:refine-tasks`** — validates `.taskmaster/tasks/tasks.json` against the
   PRD. Builds a coverage matrix (every REQ-NNN, user story and roadmap item mapped to
   tasks), flags gaps, orphans and contradictions, then rewrites vague tasks into
   self-contained ones. Its premise: the executing agent will never see the PRD, so
@@ -32,8 +32,8 @@ the number of issues, and they tell you plainly when there is nothing left to fi
 ## Install
 
 ```
-/plugin marketplace add zinin/claude-plugins
-/plugin install claude-prd@zinin
+/plugin marketplace add zinin/agent-plugins
+/plugin install prd-flow@zinin
 ```
 
 ## Dependencies
