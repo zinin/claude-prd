@@ -52,6 +52,6 @@ its questions one at a time, and in the smoke, `codex exec` 0.157 ended at the f
 
 ## See also
 
-- [claude-mesh](https://github.com/zinin/claude-mesh) — multi-model code review, alt-Claude execution, session helpers
-- [claude-forge](https://github.com/zinin/claude-forge) — build/test/lint delegation and dependency updates
-- [claude-atlassian](https://github.com/zinin/claude-atlassian) — Jira/Confluence analysis and bug investigation
+- [mesh-review](https://github.com/zinin/mesh-review) — multi-model code and design review; [mesh-exec](https://github.com/zinin/mesh-exec) runs a prompt through another model's CLI; [session-relay](https://github.com/zinin/session-relay) runs a plan across sessions
+- [build-forge](https://github.com/zinin/build-forge) — build/test/lint delegation and dependency updates
+- [atlassian-scout](https://github.com/zinin/atlassian-scout) — Jira/Confluence analysis and bug investigation
