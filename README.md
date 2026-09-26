@@ -1,6 +1,6 @@
 # prd-flow
 
-Claude Code plugin: the path from a raw idea to an execution-ready task list —
+Agent plugin: the path from a raw idea to an execution-ready task list —
 one skill that authors a PRD through dialogue, and two that harden the PRD and
 the generated tasks autonomously, asking you at most three questions per run.
 
@@ -35,6 +35,9 @@ the number of issues, and they tell you plainly when there is nothing left to fi
 /plugin marketplace add zinin/agent-plugins
 /plugin install prd-flow@zinin
 ```
+
+In Codex (`codex plugin add prd-flow@zinin`), run idea-to-prd in the interactive session: it asks
+its questions one at a time, and in the smoke `codex exec` 0.157 ended at the first one.
 
 ## Dependencies
 
