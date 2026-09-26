@@ -37,7 +37,7 @@ the number of issues, and they tell you plainly when there is nothing left to fi
 ```
 
 In Codex (`codex plugin add prd-flow@zinin`), run idea-to-prd in the interactive session: it asks
-its questions one at a time, and in the smoke `codex exec` 0.157 ended at the first one.
+its questions one at a time, and in the smoke, `codex exec` 0.157 ended at the first one.
 
 ## Dependencies
 
