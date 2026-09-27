@@ -1,6 +1,6 @@
 {
   "name": "prd-flow",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "displayName": "PRD Flow",
   "description": "Idea to PRD to tasks: collaborative PRD authoring plus autonomous refinement of PRD and tasks.json",
   "author": { "name": "Alexander V. Zinin", "email": "azinin@gmail.com", "url": "https://github.com/zinin" },
