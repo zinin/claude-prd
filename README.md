@@ -36,8 +36,9 @@ the number of issues, and they tell you plainly when there is nothing left to fi
 /plugin install prd-flow@zinin
 ```
 
-In Codex (`codex plugin add prd-flow@zinin`), run idea-to-prd in the interactive session: it asks
-its questions one at a time, and in the smoke, `codex exec` 0.157 ended at the first one.
+In Codex (`codex plugin marketplace add zinin/agent-plugins`, then
+`codex plugin add prd-flow@zinin`), run idea-to-prd in the interactive session: it asks its
+questions one at a time, and in the smoke, `codex exec` 0.157 ended at the first one.
 
 ## Dependencies
 
