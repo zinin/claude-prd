@@ -5,7 +5,7 @@ description: >
   vague language, and missing details — then fixing them autonomously. Only asks the user about
   genuine decision forks where context doesn't clearly favor one answer. Designed for iterative use:
   invoke repeatedly across sessions until the PRD is implementation-ready with zero open questions.
-  Use this skill after claude-prd:idea-to-prd (or any other PRD generator) has produced a PRD and
+  Use this skill after prd-flow:idea-to-prd (or any other PRD generator) has produced a PRD and
   you want to harden it before implementation. Also use when the user says "review PRD",
   "improve PRD", "validate PRD", "refine PRD", "PRD quality", "PRD ready?", or anything about
   making an existing PRD better.
@@ -151,7 +151,7 @@ Present a concise summary:
 - Overall PRD readiness assessment (Ready / Almost ready / Needs more work)
 
 If the PRD is ready: say so clearly. Don't invent work.
-If it needs more work: explain what's still missing and suggest running `/claude-prd:refine-prd` again.
+If it needs more work: explain what's still missing and suggest running `/prd-flow:refine-prd` again.
 
 ## Analysis checklist
 

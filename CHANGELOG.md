@@ -1,8 +1,12 @@
 # Changelog
 
-All notable changes to claude-prd will be documented here.
+All notable changes to prd-flow will be documented here.
 
 ## [Unreleased]
+
+### Changed
+- **Renamed from claude-prd to prd-flow.** The skills keep their names: `/claude-prd:refine-prd`
+  is `/prd-flow:refine-prd`, and so on.
 
 ## [0.1.0] - 2026-08-09
 
